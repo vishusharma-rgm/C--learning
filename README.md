@@ -27,8 +27,3 @@ Each topic folder contains example programs, explanations, and experiments I try
 
 ---
 
-## ⚙️ How to Run the Code
-
-1.⁠ ⁠Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/c-learning.git
