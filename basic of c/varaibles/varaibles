@@ -1,0 +1,18 @@
+// variables.c
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    int age = 25;
+    float height = 5.9;
+    char grade = 'A';
+    double pi = 3.14159265359;
+
+    // Print variables
+    printf("Age: %d\n", age);
+    printf("Height: %.1f feet\n", height);
+    printf("Grade: %c\n", grade);
+    printf("Value of pi: %.11f\n", pi);
+
+    return 0;
+}
