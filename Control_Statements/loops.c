@@ -1,31 +1,21 @@
-// loops.c
+// if_else.c
 #include <stdio.h>
 
 int main() {
-    // For loop
-    printf("For loop:\n");
-    for (int i = 1; i <= 5; i++) {
-        printf("%d ", i);
-    }
-    printf("\n\n");
+    int num;
 
-    // While loop
-    printf("While loop:\n");
-    int j = 1;
-    while (j <= 5) {
-        printf("%d ", j);
-        j++;
-    }
-    printf("\n\n");
+    printf("Enter a number: ");
+    scanf("%d", &num);
 
-    // Do-while loop
-    printf("Do-While loop:\n");
-    int k = 1;
-    do {
-        printf("%d ", k);
-        k++;
-    } while (k <= 5);
-    printf("\n");
+    if (num > 0) {
+        printf("The number is positive.\n");
+    } 
+    else if (num < 0) {
+        printf("The number is negative.\n");
+    } 
+    else {
+        printf("The number is zero.\n");
+    }
 
     return 0;
 }
